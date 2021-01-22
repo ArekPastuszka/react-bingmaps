@@ -64,6 +64,9 @@ class App extends Component {
                 address: 'Salem, Tamilnadu'
               }
             ]
+      },
+      onMapReady: (handler) => {
+        console.log(handler);
       }
     }
   }
